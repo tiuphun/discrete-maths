@@ -1,5 +1,5 @@
-# Generate all solutions x1 + x2 + ... + xn = M; given n, M.
-[n, M] = [int]
+# Generate all solutions x1 + x2 + ... + xn = M; given n, M. - NOT OK
+[n, M] = [int, int]
 x = [0 for i in range(n+1)]
 T = 0
 
@@ -20,3 +20,4 @@ def trial(k):
             else: 
                 trial(k+1)
             T = T - x[k]
+trial(1)
