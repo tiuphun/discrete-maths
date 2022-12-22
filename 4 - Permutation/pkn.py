@@ -1,5 +1,6 @@
+# OK
 # Generate permutation of n values
-n = 4
+n = 5
 x = [0 for i in range(n+1)]
 mark = [False for v in range(n+1)]
 
